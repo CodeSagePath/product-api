@@ -1,0 +1,19 @@
+{
+  "name": "product-api",
+  "version": "1.0.0",
+  "description": "nodejs simple product api for Arthalfa using serialize ORM and mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeSagePath/product-api.git"
+  },
+  "author": "Rishi Garg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodeSagePath/product-api/issues"
+  },
+  "homepage": "https://github.com/CodeSagePath/product-api#readme"
+}
