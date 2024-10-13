@@ -14,7 +14,7 @@ This is a simple RESTful API for managing a list of products. It allows users to
 - Node.js
 - Express.js
 - Sequelize (ORM)
-- PostgreSQL or MySQL (Database)
+- MySQL (Database)
 - dotenv (for environment variables)
 
 ## Installation
@@ -24,15 +24,15 @@ This is a simple RESTful API for managing a list of products. It allows users to
 Make sure you have the following installed on your machine:
 
 - [Node.js](https://nodejs.org/) (v12 or later)
-- [PostgreSQL](https://www.postgresql.org/download/) or [MySQL](https://dev.mysql.com/downloads/mysql/)
-- npm (Node Package Manager) or Yarn
+- [MySQL](https://dev.mysql.com/downloads/mysql/)
+- npm (Node Package Manager)
 
 ### Steps to Run the Project
 
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/CodeSagePath/product-api.git
    cd product-api
    ```
 
@@ -59,7 +59,8 @@ Make sure you have the following installed on your machine:
    DB_USER=your_database_user
    DB_PASSWORD=your_database_password
    DB_HOST=localhost
-   DB_DIALECT=postgres  # or mysql
+   DB_DIALECT=mysql
+   PORT=3000
    ```
 
    Replace `your_database_name`, `your_database_user`, and `your_database_password` with your actual database credentials.
@@ -109,7 +110,7 @@ Make sure you have the following installed on your machine:
     {
       "name": "string",
       "price": "number",
-      "description": "string (optional)",
+      "description": "string",
       "category": "string"
     }
     ```
